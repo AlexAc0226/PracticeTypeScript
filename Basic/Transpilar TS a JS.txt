@@ -1,0 +1,17 @@
+ tsc --outDir nombre_carpeta_guardar_fichero_JS nombre_fichero_TS && node carpeta_ficheroJS/fichero.js
+Ej:  tsc --outDir dist index.ts && node dist/index.js
+*****Esto solo se hace cuando no esta configurado TS*****
+
+Actualizacion inmediata de codigo, sin tener que estar transpilando cada rato.
+comando: tsc --outDir dist index.ts --watch
+
+Configuracion de ts
+1- tsc --init
+2- descomentar: 
+	    "rootDir": "./src", //Esta es la carpeta que dice "desde donde vamos a compilar tos ficheros ts"                                 /* Specify the root folder within your source files. */
+    	    "outDir": "./dist",   //Donde se moveran los ficheros compilados     
+3- compilar TS a JS, escribir el comando (tsc) en la terminal                          /* Specify an output folder for all emitted files. */
+	
+
+
+
